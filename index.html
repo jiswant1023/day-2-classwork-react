@@ -12,27 +12,12 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 </head>
-<body>
+<body
+style="justify-content: center;
+align-items: center;
+text-align: center;">
     <div id="root" type="text/babel"></div>
 
-    <script>
-        // Create React element for the heading
-        const heading = React.createElement('h1', null, 'Hello, This is my day 2 classwork');
-
-        // Create React element for the paragraph
-        const paragraph = React.createElement('p', null, 'This is a simple web page created using ReactJS with the assistance of CDN links.');
-
-        // Create React element for the link
-        const link = React.createElement('a', { href: 'https://reactjs.org/', target: '_blank' }, 'Learn more about ReactJS');
-
-        // Create React element for the footer
-        const footer = React.createElement('footer',null, link);
-
-        // Create React element for the main content container
-        const mainContent = React.createElement('div', null, [heading, paragraph, footer]);
-
-        // Render the main content into the root element
-        ReactDOM.render(mainContent, document.getElementById('root'));
-    </script>
+    <script src="script.js" type="text/babel"></script>
 </body>
 </html>
